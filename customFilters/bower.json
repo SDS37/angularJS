@@ -1,0 +1,24 @@
+{
+  "name": "customFilters",
+  "version": "0.0.1",
+  "homepage": "https://github.com/SDS37/customFilters",
+  "authors": [
+    "Salvador Duenas <salvador_duenas_solis@yahoo.com>"
+  ],
+  "description": "Custom Filters for angularjs",
+  "main": "src/angular-custom-filters.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "examples"
+  ],
+  "dependencies": {
+    "angularjs": "~1.2.21",
+    "angular-mocks": "~1.2.21"
+  }
+}

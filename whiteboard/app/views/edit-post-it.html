@@ -1,0 +1,29 @@
+<!-- <div class="whiteboard-features-container">
+	<div class="whiteboard-feature-container">
+		<h4 class="text-muted">Post-it {{ postIt.id }}</h4>
+	</div>
+</div> -->
+
+<div class="whiteboard-features-container">
+	<div class="whiteboard-feature-container">
+		<h4 class="text-muted"></h4>
+	</div>
+	<div class="whiteboard-feature-container">
+
+		<ul class="nav nav-pills pull-right">
+			<li class="active"><a ng-href="#/whiteboard/{{ whiteboardSelected.id }}"><span class="glyphicon glyphicon-arrow-left"></span> Whiteboard {{ whiteboardSelected.wbName }}</a></li>
+		</ul>
+
+	</div>
+</div>
+
+<br/>
+<hr>
+
+<div class="jumbotron">
+	<h3>Edit post-it form</h3>
+	<hr>
+	<form name="editPostItForm" ng-submit="updatePostIt()"> 
+		<fl-wb-edit-post-it-form></fl-wb-edit-post-it-form>
+	</form>
+</div>
